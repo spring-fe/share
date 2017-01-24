@@ -32,20 +32,19 @@
 
 ---
 
-## setTimeout
-* 延迟指定的时间把任务放入执行队列
-* javascript空闲时，执行队列任务
-* 改变UI显示
-* 延迟时间比刷新时间短，丢帧，卡顿
+## 浏览器渲染过程－Javascript引擎
+* 处理交互，操作DOM
+* 单线程，避免处理UI冲突
+
 
 ---
 
-## requestAnimationFrame
-* 对setTimeout优化，防止丢帧
-* 每一帧的所有DOM操作集中，一次渲染完成
-* 渲染频率与浏览器刷新频率一致
-* 对隐藏或不可见元素，不进行重排或重绘
-* 不支持，封装
+## 浏览器渲染过程－Javascript引擎
+### 异步
+* 事件click,keyup...(事件触发线程)
+* setTimeout(func,delay)(计数器触发线程)
+* ajax请求(http请求线程)
+![](images/browser/queue.png))
 
 ---
 

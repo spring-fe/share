@@ -12,10 +12,18 @@
 
 ---
 
-## 动画类型
-* javascript
-* canvas
-* css3
+## 浏览器渲染过程－DOM
+```markup
+<html>
+	<head>
+		<title>Web page parsing</title>
+	</head>
+	<body>
+		<h1>Web page parsing</h1>
+		<p>This is an example Web page.</p>
+	</body>
+</html>
+```
 
 ---
 

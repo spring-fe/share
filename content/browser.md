@@ -8,7 +8,7 @@
 ## 浏览器渲染过程－渲染引擎
 
 * 单线程
-![](../images/browser/browser-work.png)
+![](/images/browser/browser-work.png)
 
 ---
 

@@ -71,18 +71,15 @@ var a = 1;
 	* <rect> 矩形
 	* <circle> 圆
 	* <line> 直线
+	* ...
 
 ---
 
-## 主线程
-* 解释javascript
-* 渲染线程
-
-  * 计算HtML元素的CSS样式
-  * 页面布局
-  * 将元素绘制到一个或多个位图中
-  * 把位图交给合成线程
-* javascript线程与渲染线程互斥
+## D3.JS
+* 数据驱动文档(Data-Driven Documents)
+* Javascript库，数据可视化
+* 核心思想：把数据与元素绑定在一起，根据数据操作DOM
+![](images/browser/d3.png)
 
 ---
 

@@ -27,10 +27,8 @@
 
 ---
 
-## javascript
-* setTimeut
-* setInterval
-* requestAnimationFrame
+## DOM树
+![](images/browser/dom.png)
 
 ---
 

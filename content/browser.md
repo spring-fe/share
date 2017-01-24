@@ -48,9 +48,20 @@
 
 ---
 
-## webWorker
-* 在浏览器后台运行javascript
-* 与dom无关操作
+## Javascript线程与渲染线程互斥
+```html
+<ul id="myList">
+	<li>tab1</li>
+	<li>tab2</li>
+	<li>tab3</li>
+</ul>
+```
+```js
+var list = document.getElementById("myList");
+list.removeChild(list.childNodes[0]);
+
+var a = 1;
+```
 
 ---
 

@@ -65,9 +65,12 @@ var a = 1;
 
 ---
 
-## 主线程与合成线程
-* 协同工作渲染网页
-* 可同步
+## SVG
+* 可缩放矢量图形(Scalable Vector Graphics)
+* 形状元素
+	* <rect> 矩形
+	* <circle> 圆
+	* <line> 直线
 
 ---
 

@@ -44,7 +44,7 @@
 * setTimeout(func,delay)(计数器触发线程)
 * ajax请求(http请求线程)
 
-![](images/browser/queue.png))
+![](images/browser/queue.png)
 
 ---
 

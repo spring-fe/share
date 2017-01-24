@@ -41,6 +41,7 @@
 
 ## 浏览器渲染过程－Javascript引擎
 异步
+
 * 事件click,keyup...(事件触发线程)
 * setTimeout(func,delay)(计数器触发线程)
 * ajax请求(http请求线程)
